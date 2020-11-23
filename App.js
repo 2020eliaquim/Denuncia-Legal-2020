@@ -6,17 +6,7 @@ const PORT = process.env.PORT || 5000;
 app.get('/about', (req, res) =>{
     res.json({
         name: 'Eliquim Jordan',
-        email: 'eliaquim_jordano@gmail.com',
-        urls: [
-            {
-                type: 'facebook',
-                url: 'facebook.com.br/eliaquimjordan'
-            },
-            {
-                type: 'tweety',
-                url: 'tweete.com.br/eliaquimjordan'
-            }
-        ]
+        email: 'eliaquim_jordan@gmail.com',
     });
 });
 //rota raiz
