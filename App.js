@@ -11,9 +11,7 @@ app.get('/about', (req, res) =>{
 });
 //rota raiz
 app.get('/', (req, res) => {
-    res.json({
-        msg: "Funcionando...."
-    });
+    res.send('<span color="#f00 font-size="24">Thiago gay</span>');
 });
 
 app.listen(PORT, () => {
