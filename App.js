@@ -11,7 +11,7 @@ app.get('/about', (req, res) =>{
 });
 //rota raiz
 app.get('/', (req, res) => {
-    res.send('<span color="#f00 font-size="24">Thiago gay</span>');
+    res.send('<span color="#f00 font-size="50">Josuel, este e um exemplo de um site com host gratuito! ps.: eliaquim</span>');
 });
 
 app.listen(PORT, () => {
